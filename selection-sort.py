@@ -1,6 +1,7 @@
 # Selection sort
-# sort given array from lowest to highest values
-# O(n²)
+# Sort given array from lowest to highest values
+# Selection sort is an in-place comparison sorting algorithm. 
+# It has an O(n²) time complexity, which makes it inefficient on large lists.
 
 # example arr [5,3,6,2,10]
 
