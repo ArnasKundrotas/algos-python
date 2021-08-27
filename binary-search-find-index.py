@@ -1,5 +1,5 @@
 # Binary search
-# Find arr number index
+# Find arr number index 
 
 def first_arr_value(arr, target):
     left = 0
