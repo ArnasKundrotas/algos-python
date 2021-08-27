@@ -18,3 +18,4 @@ def find_first_val_x(arr, x) :
     return ans
 
 print (find_first_val_x([2,3,5,6,8,10,12], 4))
+print (find_first_val_x([2,3,5,6,8,10,12], 12))
