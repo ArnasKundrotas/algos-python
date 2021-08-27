@@ -9,7 +9,11 @@ def binary_search(list, item):
     counter = 0
 
     while low <= high:
-        mid = int((low + high)/2) 
+
+        # mid = int((low + high)/2) # should NEVER use this formula because because low+high might overflow
+        mid = low + (high - low)//2 # this formula always works -> distance devided by 2 -> // floor
+
+
         # if not even number rounded down by Python NOT!!!
         # must do casting int(), (int+int)/2 returns float and error in Python v3
 
