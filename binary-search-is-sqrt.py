@@ -10,14 +10,11 @@ def is_a_square(x):
     while left <= right:
         mid = left + (right - left)//2 #8
         if x == mid * mid: # 16 == 8 * 8
-            print ("Yes: \n")
-            print (x)
             return mid
         if x > mid * mid: # 16 > 8 * 8
             left = mid + 1
         else: # 16 < 8 * 8
             right = mid - 1 # 15
-    print("No")
     return None
 
 print (is_a_square(16))
